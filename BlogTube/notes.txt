@@ -1,0 +1,18 @@
+python3 manage.py runserver - to run the project
+
+(venv) (base) marcklester@192 Django L1 % cd blogtube
+(venv) (base) marcklester@192 blogtube % python3 manage.py runserver
+This is like flask run.
+No need to include any coomands like debug=True as everything is saved in the settings file
+
+To go to previous directory:
+cd ..
+
+Initialize git:
+git init
+
+To commit:
+git commit -m "my first commit"
+
+To get the current status:
+git status
