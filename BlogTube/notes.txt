@@ -48,3 +48,7 @@ pip install -r requirements.txt
 
 To remove gitignore file from git:
 git rm .gitignore
+
+
+To add new project within existing project:
+python3 manage.py startapp posts
