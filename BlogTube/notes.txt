@@ -34,3 +34,17 @@ Git is version control system
 Github is like google drive but for code
 
 Token: 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
+
+Instead of having to re-install Django and configure other settings, this file 
+captures all of the dependencies incase I need to reset something later on.
+Very important to do this only in a virtually environment otherwise it will
+add everything to my machine.
+
+To create the requirements.txt file:
+pip freeze > requirements.txt
+
+To install all requirements again:
+pip install -r requirements.txt
+
+To remove gitignore file from git:
+git rm .gitignore
