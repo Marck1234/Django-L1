@@ -11,8 +11,26 @@ cd ..
 Initialize git:
 git init
 
+To add all files in project to Git track:
+git add .
+
 To commit:
 git commit -m "my first commit"
 
 To get the current status:
 git status
+
+To push data to the server:
+git push
+
+To push an existing repository from the command line:
+git remote add origin https://github.com/Marck1234/Django-L1.git
+git branch -M main
+git push -u origin main
+
+
+Def:
+Git is version control system
+Github is like google drive but for code
+
+Token: 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
